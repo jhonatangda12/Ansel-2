@@ -91,21 +91,6 @@
     <p>&copy;System developed by Jhonatan Bryan Barbosa</p>
 
 
-    <script>
-        function calcularResultados() {
-            let num1 = parseFloat(document.getElementById("numero1").value) || 0;
-            let num2 = parseFloat(document.getElementById("numero2").value) || 0;
-            let taxa01 = parseFloat(document.getElementById("taxa1").value) || 0;
 
-            let multiplicar = num2 * 8;
-            let total = multiplicar + num1 + taxa01;
-
-            document.getElementById("resultadoTaxas").textContent = taxa01.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-            document.getElementById("valorAPagar").textContent = total.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-             document.getElementById("valor").value = total.toFixed(2);
-        }
-
-      
-    </script>
 </body>
 </html>
