@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="Fabio.js"></script>
+
 
     <nav>
         <ul>
@@ -30,14 +30,9 @@
     </div>
 
     <div class="container"> <br>
-        <!--<form id="meuFormulario" method="POST" action="enviar.php">-->
-        <!--<div class="form-group">
-                <label for="datatime">Data e Hora:</label>
-                <input type="datetime-local" id="datatime" name="datatime"><br><br>
-            </div>-->
-            <div class="form-group">
+        <form id="meuFormulario"> <div class="form-group">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" value="Eder">
+                <input type="text" id="nome" value="Eder">
             </div>
             <div class="condicoes">
                 <p>$10,00 por hora.</p>
@@ -46,51 +41,41 @@
             </div> <br><br>
             <div class="form-group">
                 <label for="numero1">Arrancada:</label>
-                <input type="number" id="numero1" name="numero1" value=""><br><br>
+                <input type="number" id="numero1" value=""><br><br>
             </div>
             <div class="form-group">
                 <label for="numero2">Corridas:</label>
-                <input type="number" id="numero2" name="numero2" value=""><br><br>
+                <input type="number" id="numero2" value=""><br><br>
             </div>
             <div class="form-group">
                 <label for="taxa1">Taxa:</label>
-                <input type="number" id="taxa1" name="taxa1" value="" step="0.01"><br><br>
+                <input type="number" id="taxa1" value=""><br><br>
             </div>
-
-            <div class="form-group">
-                <label for="valor">Valor:</label>
-                <input type="number" id="valor" name="valor" step="0.01" placeholder="Insira o valor a pagar aqui..." readonly ><br><br>
-
-            </div>
-
-            <!--<button type="submit" style="background-color: darkgreen;">Enviar Dados</button>
-        </form>-->
-        <br>
-
-        <button onclick="calcularResultados()">Calcular</button><br>
+        </form> <button onclick="calcularResultados()">Calcular</button><br>
         <div class="">
             <div id="resultados" class="resultados">
                 <p>Taxas: <span id="resultadoTaxas"></span></p>
                 <div class="valorTotal">
                     <p>Valor a pagar:<br>
                         <span class="valorFinal" id="valorAPagar"></span>
-                    </p>
-                    
                 </div>
-                <br>
-                <div class="form-group">
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea spellcheck="true" class="feedback" name="mensagem" id="mensagem" placeholder="Deixe seu feedback..."></textarea><br><br>
-                </div>
+                </p>
             </div><br>
+            <button onclick="imprimirFormulario()">Imprimir</button>
+            <div class="resultados">
+                <br>
+                <label for="mensagem">Digite sua mensagem:</label>
+                <textarea spellcheck="true" class="feedback" name="mensagem" id="mensagem" placeholder="Deixe seu feedback..."></textarea>
+            </div>
         </div>
-        <button onclick="imprimirFormulario()">Imprimir</button>
-
+        <button onclick="enviarMensagem()">Enviar</button>
 
     </div> <br><br>
     <p>&copy;System developed by Jhonatan Bryan Barbosa</p>
-
-
+    
+    
+<script src="Fabio.js"></script>
 
 </body>
+    
 </html>
