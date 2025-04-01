@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansel Calcule</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+<body>
+    
+    <script src="appInicio.js"></script>
+
+    <div class="menu">
+        <nav class="navMenu">
+            <ul class="ulMenu">
+                <li style="list-style: none;"><a class="inicio" href="index.html">Início</a></li>
+            </ul>
+        </nav>
+    </div><br><br><br>
+
+    <div id="Ifood" class="meuCaixa"> 
+
+        <div>
+            <ul id="name" value="Dinheiro">Dinheiro
+                <li><input id="column1-line1" value="" type="number"></li>
+                <li><input id="column1-line2" value="" type="number"></li>
+                <li><input id="column1-line3" value="" type="number"></li>
+                <li><input id="column1-line4" value="" type="number"></li>
+                <li><input id="column1-line5" value="" type="number"></li>
+                <li><input id="column1-line6" value="" type="number"></li>
+                <li><input id="column1-line7" value="" type="number"></li>
+                <li><input id="column1-line8" value="" type="number"></li>
+                <li><input id="column1-line9" value="" type="number"></li>
+                <li><input id="column1-line10" value="" type="number"></li>
+                <li><input id="column1-line11" value="" type="number"></li>
+                <li><input id="column1-line12" value="" type="number"></li>
+                <li><input id="column1-line13" value="" type="number"></li>
+                <li><input id="column1-line14" value="" type="number"></li>
+                <li><input id="column1-line15" value="" type="number"></li>
+                <li><input id="column1-line16" value="" type="number"></li>
+                <li><input id="column1-line17" value="" type="number"></li>
+                <li><input id="column1-line18" value="" type="number"></li>
+                <li><input id="column1-line19" value="" type="number"></li>
+                <li><input id="column1-line20" value="" type="number"></li>
+                <li><input id="column1-line21" value="" type="number"></li>
+                <li><input id="column1-line22" value="" type="number"></li>
+                <li><input id="column1-line23" value="" type="number"></li>
+                <li><input id="column1-line24" value="" type="number"></li>
+                <li><input id="column1-line25" value="" type="number"></li>
+                <li><input id="column1-line26" value="" type="number"></li>
+            </ul>
+            <div class="calcularEImprimir">
+                <button class="calcularEImprimir2" onclick="calcularFormadePagaMento1()">Calcular</button>
+                <button class="calcularEImprimir2" onclick="ImorimirFormadePagamento1()">Imprimir</button>
+            </div><br>
+            <p>Total:<br> <span id="total1"></span></p>
+        </div>
+
+        <div >
+            <ul>
+                Credito Rede
+                <li><input id="column2-line1" value="" type="number"></li>
+                <li><input id="column2-line2" value="" type="number"></li>
+                <li><input id="column2-line3" value="" type="number"></li>
+                <li><input id="column2-line4" value="" type="number"></li>
+                <li><input id="column2-line5" value="" type="number"></li>
+                <li><input id="column2-line6" value="" type="number"></li>
+                <li><input id="column2-line7" value="" type="number"></li>
+                <li><input id="column2-line8" value="" type="number"></li>
+                <li><input id="column2-line9" value="" type="number"></li>
+                <li><input id="column2-line10" value="" type="number"></li>
+                <li><input id="column2-line11" value="" type="number"></li>
+                <li><input id="column2-line12" value="" type="number"></li>
+                <li><input id="column2-line13" value="" type="number"></li>
+                <li><input id="column2-line14" value="" type="number"></li>
+                <li><input id="column2-line15" value="" type="number"></li>
+                <li><input id="column2-line16" value="" type="number"></li>
+                <li><input id="column2-line17" value="" type="number"></li>
+                <li><input id="column2-line18" value="" type="number"></li>
+                <li><input id="column2-line19" value="" type="number"></li>
+                <li><input id="column2-line20" value="" type="number"></li>
+                <li><input id="column2-line21" value="" type="number"></li>
+                <li><input id="column2-line22" value="" type="number"></li>
+                <li><input id="column2-line23" value="" type="number"></li>
+                <li><input id="column2-line24" value="" type="number"></li>
+                <li><input id="column2-line25" value="" type="number"></li>
+                <li><input id="column2-line26" value="" type="number"></li>
+            </ul>
+            <div class="calcularEImprimir">
+                <button class="calcularEImprimir2" onclick="calcularFormadePagaMento2()">Calcular</button>
+                <button class="calcularEImprimir2" onclick="ImorimirFormadePagamento2()">Imprimir</button>
+            </div><br>
+            <p>Total:<br> <span id="total2"></span></p>
+        </div>
+
+        <div>
+            <ul>
+                Credito Azul
+                <li><input id="column3-line1" value="" type="number"></li>
+                <li><input id="column3-line2" value="" type="number"></li>
+                <li><input id="column3-line3" value="" type="number"></li>
+                <li><input id="column3-line4" value="" type="number"></li>
+                <li><input id="column3-line5" value="" type="number"></li>
+                <li><input id="column3-line6" value="" type="number"></li>
+                <li><input id="column3-line7" value="" type="number"></li>
+                <li><input id="column3-line8" value="" type="number"></li>
+                <li><input id="column3-line9" value="" type="number"></li>
+                <li><input id="column3-line10" value="" type="number"></li>
+                <li><input id="column3-line11" value="" type="number"></li>
+                <li><input id="column3-line12" value="" type="number"></li>
+                <li><input id="column3-line13" value="" type="number"></li>
+                <li><input id="column3-line14" value="" type="number"></li>
+                <li><input id="column3-line15" value="" type="number"></li>
+                <li><input id="column3-line16" value="" type="number"></li>
+                <li><input id="column3-line17" value="" type="number"></li>
+                <li><input id="column3-line18" value="" type="number"></li>
+                <li><input id="column3-line19" value="" type="number"></li>
+                <li><input id="column3-line20" value="" type="number"></li>
+                <li><input id="column3-line21" value="" type="number"></li>
+                <li><input id="column3-line22" value="" type="number"></li>
+                <li><input id="column3-line23" value="" type="number"></li>
+                <li><input id="column3-line24" value="" type="number"></li>
+                <li><input id="column3-line25" value="" type="number"></li>
+                <li><input id="column3-line26" value="" type="number"></li>
+            </ul>
+            <div class="calcularEImprimir">
+                <button class="calcularEImprimir2" onclick="calcularFormadePagaMento3()">Calcular</button>
+                <button class="calcularEImprimir2" onclick="ImorimirFormadePagamento3()">Imprimir</button>
+            </div><br>
+            <p>Total:<br> <span id="total3"></span></p>
+        </div>
+
+        <div>
+            <ul>
+                Credito InGold
+                <li><input id="column4-line1" value="" type="number"></li>
+                <li><input id="column4-line2" value="" type="number"></li>
+                <li><input id="column4-line3" value="" type="number"></li>
+                <li><input id="column4-line4" value="" type="number"></li>
+                <li><input id="column4-line5" value="" type="number"></li>
+                <li><input id="column4-line6" value="" type="number"></li>
+                <li><input id="column4-line7" value="" type="number"></li>
+                <li><input id="column4-line8" value="" type="number"></li>
+                <li><input id="column4-line9" value="" type="number"></li>
+                <li><input id="column4-line10" value="" type="number"></li>
+                <li><input id="column4-line11" value="" type="number"></li>
+                <li><input id="column4-line12" value="" type="number"></li>
+                <li><input id="column4-line13" value="" type="number"></li>
+                <li><input id="column4-line14" value="" type="number"></li>
+                <li><input id="column4-line15" value="" type="number"></li>
+                <li><input id="column4-line16" value="" type="number"></li>
+                <li><input id="column4-line17" value="" type="number"></li>
+                <li><input id="column4-line18" value="" type="number"></li>
+                <li><input id="column4-line19" value="" type="number"></li>
+                <li><input id="column4-line20" value="" type="number"></li>
+                <li><input id="column4-line21" value="" type="number"></li>
+                <li><input id="column4-line22" value="" type="number"></li>
+                <li><input id="column4-line23" value="" type="number"></li>
+                <li><input id="column4-line24" value="" type="number"></li>
+                <li><input id="column4-line25" value="" type="number"></li>
+                <li><input id="column4-line26" value="" type="number"></li>
+            </ul>
+            <div class="calcularEImprimir">
+                <button class="calcularEImprimir2" onclick="calcularFormadePagaMento4()">Calcular</button>
+                <button class="calcularEImprimir2" onclick="ImorimirFormadePagamento4()">Imprimir</button>
+            </div><br>
+            <p>Total:<br> <span id="total4"></span></p>
+        </div>
+
+        <div>
+            <ul>
+                Debito REDE
+                <li><input id="column5-line1" value="" type="number"></li>
+                <li><input id="column5-line2" value="" type="number"></li>
+                <li><input id="column5-line3" value="" type="number"></li>
+                <li><input id="column5-line4" value="" type="number"></li>
+                <li><input id="column5-line5" value="" type="number"></li>
+                <li><input id="column5-line6" value="" type="number"></li>
+                <li><input id="column5-line7" value="" type="number"></li>
+                <li><input id="column5-line8" value="" type="number"></li>
+                <li><input id="column5-line9" value="" type="number"></li>
+                <li><input id="column5-line10" value="" type="number"></li>
+                <li><input id="column5-line11" value="" type="number"></li>
+                <li><input id="column5-line12" value="" type="number"></li>
+                <li><input id="column5-line13" value="" type="number"></li>
+                <li><input id="column5-line14" value="" type="number"></li>
+                <li><input id="column5-line15" value="" type="number"></li>
+                <li><input id="column5-line16" value="" type="number"></li>
+                <li><input id="column5-line17" value="" type="number"></li>
+                <li><input id="column5-line18" value="" type="number"></li>
+                <li><input id="column5-line19" value="" type="number"></li>
+                <li><input id="column5-line20" value="" type="number"></li>
+                <li><input id="column5-line21" value="" type="number"></li>
+                <li><input id="column5-line22" value="" type="number"></li>
+                <li><input id="column5-line23" value="" type="number"></li>
+                <li><input id="column5-line24" value="" type="number"></li>
+                <li><input id="column5-line25" value="" type="number"></li>
+                <li><input id="column5-line26" value="" type="number"></li>
+            </ul>
+            <div class="calcularEImprimir">
+                <button class="calcularEImprimir2" onclick="calcularFormadePagaMento5()">Calcular</button>
+                <button class="calcularEImprimir2" onclick="ImorimirFormadePagamento5()">Imprimir</button>
+            </div><br>
+            <p>Total:<br> <span id="total5"></span></p>
+        </div>
+
+        <div>
+            <ul>
+                Debito AZUL
+                <li><input id="column6-line1" value="" type="number"></li>
+                <li><input id="column6-line2" value="" type="number"></li>
+                <li><input id="column6-line3" value="" type="number"></li>
+                <li><input id="column6-line4" value="" type="number"></li>
+                <li><input id="column6-line5" value="" type="number"></li>
+                <li><input id="column6-line6" value="" type="number"></li>
+                <li><input id="column6-line7" value="" type="number"></li>
+                <li><input id="column6-line8" value="" type="number"></li>
+                <li><input id="column6-line9" value="" type="number"></li>
+                <li><input id="column6-line10" value="" type="number"></li>
+                <li><input id="column6-line11" value="" type="number"></li>
+                <li><input id="column6-line12" value="" type="number"></li>
+                <li><input id="column6-line13" value="" type="number"></li>
+                <li><input id="column6-line14" value="" type="number"></li>
+                <li><input id="column6-line15" value="" type="number"></li>
+                <li><input id="column6-line16" value="" type="number"></li>
+                <li><input id="column6-line17" value="" type="number"></li>
+                <li><input id="column6-line18" value="" type="number"></li>
+                <li><input id="column6-line19" value="" type="number"></li>
+                <li><input id="column6-line20" value="" type="number"></li>
+                <li><input id="column6-line21" value="" type="number"></li>
+                <li><input id="column6-line22" value="" type="number"></li>
+                <li><input id="column6-line23" value="" type="number"></li>
+                <li><input id="column6-line24" value="" type="number"></li>
+                <li><input id="column6-line25" value="" type="number"></li>
+                <li><input id="column6-line26" value="" type="number"></li>
+            </ul>
+            <div class="calcularEImprimir">
+                <button class="calcularEImprimir2" onclick="calcularFormadePagaMento6()">Calcular</button>
+                <button class="calcularEImprimir2" onclick="ImorimirFormadePagamento6()">Imprimir</button>
+            </div><br>
+            <p>Total:<br> <span id="total6"></span></p>
+        </div>
+        <div>
+            <ul>
+                Débito InGold 
+                <li><input id="column7-line1" value="" type="number"></li>
+                <li><input id="column7-line2" value="" type="number"></li>
+                <li><input id="column7-line3" value="" type="number"></li>
+                <li><input id="column7-line4" value="" type="number"></li>
+                <li><input id="column7-line5" value="" type="number"></li>
+                <li><input id="column7-line6" value="" type="number"></li>
+                <li><input id="column7-line7" value="" type="number"></li>
+                <li><input id="column7-line8" value="" type="number"></li>
+                <li><input id="column7-line9" value="" type="number"></li>
+                <li><input id="column7-line10" value="" type="number"></li>
+                <li><input id="column7-line11" value="" type="number"></li>
+                <li><input id="column7-line12" value="" type="number"></li>
+                <li><input id="column7-line13" value="" type="number"></li>
+                <li><input id="column7-line14" value="" type="number"></li>
+                <li><input id="column7-line15" value="" type="number"></li>
+                <li><input id="column7-line16" value="" type="number"></li>
+                <li><input id="column7-line17" value="" type="number"></li>
+                <li><input id="column7-line18" value="" type="number"></li>
+                <li><input id="column7-line19" value="" type="number"></li>
+                <li><input id="column7-line20" value="" type="number"></li>
+                <li><input id="column7-line21" value="" type="number"></li>
+                <li><input id="column7-line22" value="" type="number"></li>
+                <li><input id="column7-line23" value="" type="number"></li>
+                <li><input id="column7-line24" value="" type="number"></li>
+                <li><input id="column7-line25" value="" type="number"></li>
+                <li><input id="column7-line26" value="" type="number"></li>
+            </ul>
+            <div class="calcularEImprimir">
+                <button class="calcularEImprimir2" onclick="calcularFormadePagaMento7()">Calcular</button>
+                <button class="calcularEImprimir2" onclick="ImorimirFormadePagamento7()">Imprimir</button>
+            </div><br>
+            <p>Total:<br> <span id="total7"></span></p>
+        </div>
+
+        <div>
+            <ul>
+                Voucher Rede
+                <li><input id="column8-line1" value="" type="number"></li>
+                <li><input id="column8-line2" value="" type="number"></li>
+                <li><input id="column8-line3" value="" type="number"></li>
+                <li><input id="column8-line4" value="" type="number"></li>
+                <li><input id="column8-line5" value="" type="number"></li>
+                <li><input id="column8-line6" value="" type="number"></li>
+                <li><input id="column8-line7" value="" type="number"></li>
+                <li><input id="column8-line8" value="" type="number"></li>
+                <li><input id="column8-line9" value="" type="number"></li>
+                <li><input id="column8-line10" value="" type="number"></li>
+                <li><input id="column8-line11" value="" type="number"></li>
+                <li><input id="column8-line12" value="" type="number"></li>
+                <li><input id="column8-line13" value="" type="number"></li>
+                <li><input id="column8-line14" value="" type="number"></li>
+                <li><input id="column8-line15" value="" type="number"></li>
+                <li><input id="column8-line16" value="" type="number"></li>
+                <li><input id="column8-line17" value="" type="number"></li>
+                <li><input id="column8-line18" value="" type="number"></li>
+                <li><input id="column8-line19" value="" type="number"></li>
+                <li><input id="column8-line20" value="" type="number"></li>
+                <li><input id="column8-line21" value="" type="number"></li>
+                <li><input id="column8-line22" value="" type="number"></li>
+                <li><input id="column8-line23" value="" type="number"></li>
+                <li><input id="column8-line24" value="" type="number"></li>
+                <li><input id="column8-line25" value="" type="number"></li>
+                <li><input id="column8-line26" value="" type="number"></li>
+            </ul>
+            <div class="calcularEImprimir">
+                <button class="calcularEImprimir2" onclick="calcularFormadePagaMento8()">Calcular</button>
+                <button class="calcularEImprimir2" onclick="ImorimirFormadePagamento8()">Imprimir</button>
+            </div><br>
+            
+            <p>Total:<br> <span id="total8"></span></p>
+        </div>
+
+        <div>
+            <ul>
+                InGold Pix
+                <li><input id="column9-line1" value="" type="number"></li>
+                <li><input id="column9-line2" value="" type="number"></li>
+                <li><input id="column9-line3" value="" type="number"></li>
+                <li><input id="column9-line4" value="" type="number"></li>
+                <li><input id="column9-line5" value="" type="number"></li>
+                <li><input id="column9-line6" value="" type="number"></li>
+                <li><input id="column9-line7" value="" type="number"></li>
+                <li><input id="column9-line8" value="" type="number"></li>
+                <li><input id="column9-line9" value="" type="number"></li>
+                <li><input id="column9-line10" value="" type="number"></li>
+                <li><input id="column9-line11" value="" type="number"></li>
+                <li><input id="column9-line12" value="" type="number"></li>
+                <li><input id="column9-line13" value="" type="number"></li>
+                <li><input id="column9-line14" value="" type="number"></li>
+                <li><input id="column9-line15" value="" type="number"></li>
+                <li><input id="column9-line16" value="" type="number"></li>
+                <li><input id="column9-line17" value="" type="number"></li>
+                <li><input id="column9-line18" value="" type="number"></li>
+                <li><input id="column9-line19" value="" type="number"></li>
+                <li><input id="column9-line20" value="" type="number"></li>
+                <li><input id="column9-line21" value="" type="number"></li>
+                <li><input id="column9-line22" value="" type="number"></li>
+                <li><input id="column9-line23" value="" type="number"></li>
+                <li><input id="column9-line24" value="" type="number"></li>
+                <li><input id="column9-line25" value="" type="number"></li>
+                <li><input id="column9-line26" value="" type="number"></li>
+            </ul>
+            <div class="calcularEImprimir">
+                <button class="calcularEImprimir2" onclick="calcularFormadePagaMento9()">Calcular</button>
+                <button class="calcularEImprimir2" onclick="ImorimirFormadePagamento9()">Imprimir</button>
+            </div><br>
+            
+            <p>Total:<br> <span id="total9"></span></p>
+        </div>
+
+        <div>
+            <ul>
+                Voucher Azul
+                <li><input id="column10-line1" value="" type="number"></li>
+                <li><input id="column10-line2" value="" type="number"></li>
+                <li><input id="column10-line3" value="" type="number"></li>
+                <li><input id="column10-line4" value="" type="number"></li>
+                <li><input id="column10-line5" value="" type="number"></li>
+                <li><input id="column10-line6" value="" type="number"></li>
+                <li><input id="column10-line7" value="" type="number"></li>
+                <li><input id="column10-line8" value="" type="number"></li>
+                <li><input id="column10-line9" value="" type="number"></li>
+                <li><input id="column10-line10" value="" type="number"></li>
+                <li><input id="column10-line11" value="" type="number"></li>
+                <li><input id="column10-line12" value="" type="number"></li>
+                <li><input id="column10-line13" value="" type="number"></li>
+                <li><input id="column10-line14" value="" type="number"></li>
+                <li><input id="column10-line15" value="" type="number"></li>
+                <li><input id="column10-line16" value="" type="number"></li>
+                <li><input id="column10-line17" value="" type="number"></li>
+                <li><input id="column10-line18" value="" type="number"></li>
+                <li><input id="column10-line19" value="" type="number"></li>
+                <li><input id="column10-line20" value="" type="number"></li>
+                <li><input id="column10-line21" value="" type="number"></li>
+                <li><input id="column10-line22" value="" type="number"></li>
+                <li><input id="column10-line23" value="" type="number"></li>
+                <li><input id="column10-line24" value="" type="number"></li>
+                <li><input id="column10-line25" value="" type="number"></li>
+                <li><input id="column10-line26" value="" type="number"></li>
+            </ul>
+            <div class="calcularEImprimir">
+                <button class="calcularEImprimir2" onclick="calcularFormadePagaMento10()">Calcular</button>
+                <button class="calcularEImprimir2" onclick="ImorimirFormadePagamento10()">Imprimir</button>
+            </div><br>
+            
+            <p>Total:<br> <span id="total10"></span></p>
+        </div>
+
+        <div>
+            <ul>
+                Pix Azul
+                <li><input id="column11-line1" value="" type="number"></li>
+                <li><input id="column11-line2" value="" type="number"></li>
+                <li><input id="column11-line3" value="" type="number"></li>
+                <li><input id="column11-line4" value="" type="number"></li>
+                <li><input id="column11-line5" value="" type="number"></li>
+                <li><input id="column11-line6" value="" type="number"></li>
+                <li><input id="column11-line7" value="" type="number"></li>
+                <li><input id="column11-line8" value="" type="number"></li>
+                <li><input id="column11-line9" value="" type="number"></li>
+                <li><input id="column11-line10" value="" type="number"></li>
+                <li><input id="column11-line11" value="" type="number"></li>
+                <li><input id="column11-line12" value="" type="number"></li>
+                <li><input id="column11-line13" value="" type="number"></li>
+                <li><input id="column11-line14" value="" type="number"></li>
+                <li><input id="column11-line15" value="" type="number"></li>
+                <li><input id="column11-line16" value="" type="number"></li>
+                <li><input id="column11-line17" value="" type="number"></li>
+                <li><input id="column11-line18" value="" type="number"></li>
+                <li><input id="column11-line19" value="" type="number"></li>
+                <li><input id="column11-line20" value="" type="number"></li>
+                <li><input id="column11-line21" value="" type="number"></li>
+                <li><input id="column11-line22" value="" type="number"></li>
+                <li><input id="column11-line23" value="" type="number"></li>
+                <li><input id="column11-line24" value="" type="number"></li>
+                <li><input id="column11-line25" value="" type="number"></li>
+                <li><input id="column11-line26" value="" type="number"></li>
+            </ul>
+            <div class="calcularEImprimir">
+                <button class="calcularEImprimir2" onclick="calcularFormadePagaMento11()">Calcular</button>
+                <button class="calcularEImprimir2" onclick="ImorimirFormadePagamento11()">Imprimir</button>
+            </div><br>
+            
+            <p>Total:<br> <span id="total11"></span></p>
+        </div>
+
+        <div>
+            <ul>
+                Pix REDE
+                <li><input id="column12-line1" value="" type="number"></li>
+                <li><input id="column12-line2" value="" type="number"></li>
+                <li><input id="column12-line3" value="" type="number"></li>
+                <li><input id="column12-line4" value="" type="number"></li>
+                <li><input id="column12-line5" value="" type="number"></li>
+                <li><input id="column12-line6" value="" type="number"></li>
+                <li><input id="column12-line7" value="" type="number"></li>
+                <li><input id="column12-line8" value="" type="number"></li>
+                <li><input id="column12-line9" value="" type="number"></li>
+                <li><input id="column12-line10" value="" type="number"></li>
+                <li><input id="column12-line11" value="" type="number"></li>
+                <li><input id="column12-line12" value="" type="number"></li>
+                <li><input id="column12-line13" value="" type="number"></li>
+                <li><input id="column12-line14" value="" type="number"></li>
+                <li><input id="column12-line15" value="" type="number"></li>
+                <li><input id="column12-line16" value="" type="number"></li>
+                <li><input id="column12-line17" value="" type="number"></li>
+                <li><input id="column12-line18" value="" type="number"></li>
+                <li><input id="column12-line19" value="" type="number"></li>
+                <li><input id="column12-line20" value="" type="number"></li>
+                <li><input id="column12-line21" value="" type="number"></li>
+                <li><input id="column12-line22" value="" type="number"></li>
+                <li><input id="column12-line23" value="" type="number"></li>
+                <li><input id="column12-line24" value="" type="number"></li>
+                <li><input id="column12-line25" value="" type="number"></li>
+                <li><input id="column12-line26" value="" type="number"></li>
+            </ul>
+            <div class="calcularEImprimir">
+                <button class="calcularEImprimir2" onclick="calcularFormadePagaMento12()">Calcular</button>
+                <button class="calcularEImprimir2" onclick="ImorimirFormadePagamento12()">Imprimir</button>
+            </div><br>
+            
+            <p>Total:<br> <span id="total12"></span></p>
+        </div>
+
+        <div>
+            <ul>
+                Ifood Online
+                <li><input id="column13-line1" value="" type="number"></li>
+                <li><input id="column13-line2" value="" type="number"></li>
+                <li><input id="column13-line3" value="" type="number"></li>
+                <li><input id="column13-line4" value="" type="number"></li>
+                <li><input id="column13-line5" value="" type="number"></li>
+                <li><input id="column13-line6" value="" type="number"></li>
+                <li><input id="column13-line7" value="" type="number"></li>
+                <li><input id="column13-line8" value="" type="number"></li>
+                <li><input id="column13-line9" value="" type="number"></li>
+                <li><input id="column13-line10" value="" type="number"></li>
+                <li><input id="column13-line11" value="" type="number"></li>
+                <li><input id="column13-line12" value="" type="number"></li>
+                <li><input id="column13-line13" value="" type="number"></li>
+                <li><input id="column13-line14" value="" type="number"></li>
+                <li><input id="column13-line15" value="" type="number"></li>
+                <li><input id="column13-line16" value="" type="number"></li>
+                <li><input id="column13-line17" value="" type="number"></li>
+                <li><input id="column13-line18" value="" type="number"></li>
+                <li><input id="column13-line19" value="" type="number"></li>
+                <li><input id="column13-line20" value="" type="number"></li>
+                <li><input id="column13-line21" value="" type="number"></li>
+                <li><input id="column13-line22" value="" type="number"></li>
+                <li><input id="column13-line23" value="" type="number"></li>
+                <li><input id="column13-line24" value="" type="number"></li>
+                <li><input id="column13-line25" value="" type="number"></li>
+                <li><input id="column13-line26" value="" type="number"></li>
+            </ul>
+            <div class="calcularEImprimir">
+                <button class="calcularEImprimir2" onclick="calcularFormadePagaMento13()">Calcular</button>
+                <button class="calcularEImprimir2" onclick="ImorimirFormadePagamento13()">Imprimir</button>
+            </div><br>
+            
+            <p>Total:<br> <span id="total13"></span></p>
+        </div>  
+
+    </div>
+
+
+</div>
+
+    <div id="divTotal" class="divTotal">
+        <p>Total:<br> <span id="SomadeTudo"></span></p>
+        <div class="calcularEImprimir">
+            <button class="" onclick="calcularSomadeTudo()">Calcular</button>
+        </div><br>
+    </div>  
+
+    <br><br>
+    <p class="fimDePagina">&copy;System developed by Jhonatan Bryan Barbosa</p>
+    
+</body>
+</html>

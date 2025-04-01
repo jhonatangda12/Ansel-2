@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansel Calcule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="appLeonardo.js"></script>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="Carlos.html">Carlos</a></li>
+            <li><a href="Eder.html">Eder</a></li>
+            <li><a href="Fabio.html">Fábio</a></li>
+            <li><a href="Jeferson.html">Jeferson</a></li>
+            <li><a href="Jose.html">José</a></li>
+            <li><a href="Juliano.html">Juliano</a></li>
+            <li><a href="Leonardo.html">Leonardo</a></li>
+            <li><a href="Lucas.html">Lucas</a></li>
+            <li><a href="Paulo.html">Paulo</a></li>
+            <li><a href="Freelancer1.html">Freelancer 1</a></li>
+            <li><a href="Freelancer2.html">Freelancer 2</a></li>
+        </ul>
+    </nav><br>
+    <div class="img">
+        <img class="logo" src="Sem título.png" alt=""><br><br>
+    </div>
+
+    <div class="container"> <br>
+        <form id="meuFormulario"> <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" value="Leonardo">
+            </div>
+            <div class="condicoes">
+                <p>$60,00 de arrancada.</p>
+                <p>$5,00 por corrida.</p>
+                <p>Taxa integral.</p>
+            </div> <br><br>
+            <div class="form-group">
+                <label for="numero1">Arrancada:</label>
+                <input type="number" id="numero1" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero2">Corridas:</label>
+                <input type="number" id="numero2" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="taxa1">Taxa:</label>
+                <input type="number" id="taxa1" value=""><br><br>
+            </div>
+        </form> <button onclick="calcularResultados()">Calcular</button><br>
+        <div class="">
+            <div id="resultados" class="resultados">
+                <p>Taxas: <span id="resultadoTaxas"></span></p>
+                <div class="valorTotal">
+                    <p>Valor a pagar:<br>
+                        <span class="valorFinal" id="valorAPagar"></span>
+                </div>
+                </p>
+            </div><br>
+            <button onclick="imprimirFormulario()">Imprimir</button>
+            <div class="resultados">
+                <br>
+                <label for="mensagem">Digite sua mensagem:</label>
+                <textarea spellcheck="true" class="feedback" name="mensagem" id="mensagem" placeholder="Deixe seu feedback..."></textarea>
+            </div>
+        </div>
+        <button onclick="enviarMensagem()">Enviar</button>
+
+    </div> <br><br>
+    <p>&copy;System developed by Jhonatan Bryan Barbosa</p>
+
+</body>
+</html>

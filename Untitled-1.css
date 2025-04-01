@@ -1,0 +1,300 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  text-align: center; /* Alinha o texto ao centro na horizontal */
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu {
+  height: 45px;
+  position: fixed;
+  width: 100%;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  justify-content: center;
+  list-style: none; /* Remove os marcadores da lista */
+  margin: 0;
+  padding: 0;
+  background-color: #333; /* Cor de fundo do menu */
+  overflow: hidden; /* Limpa o float */
+
+}
+
+.inicio {
+  font-size: 15px; /* Tamanho base da fonte */
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
+/* Media query para telas menores (até 768px de largura) */
+@media (max-width: 768px) {
+  .inicio {
+    font-size: 14px; /* Reduz o tamanho da fonte em telas menores */
+  }
+}
+
+/* Media query para telas ainda menores (até 480px de largura) */
+@media (max-width: 480px) {
+  .inicio {
+    font-size: 13px; /* Reduz ainda mais o tamanho da fonte em telas muito pequenas */
+  }
+}
+
+li {
+  padding-bottom: ;
+  list-style: none;
+}
+
+.meuCaixa {
+  background-color: #333;
+  color: white;
+  border-radius: 10px;
+  width: 90%; /* Largura relativa para telas maiores */
+  max-width: 1000px; /* Largura máxima para evitar que fique muito largo */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px auto; /* Adicionei margem vertical para melhor espaçamento */
+}
+
+/* Media query para telas menores (até 768px de largura) */
+@media (max-width: 768px) {
+  .meuCaixa {
+    width: 95%; /* Largura maior para telas menores */
+    margin: 10px auto; /* Reduzi a margem vertical para telas menores */
+  }
+}
+
+/* Media query para telas ainda menores (até 480px de largura) */
+@media (max-width: 480px) {
+  .meuCaixa {
+    width: 100%; /* Ocupa a largura total em telas muito pequenas */
+    border-radius: 0; /* Remove o arredondamento para telas muito pequenas */
+  }
+}
+
+/* Untitled-1.css */
+input[type="number"] {
+  width: 50px;
+}
+/* Este bloco de CSS tem como objetivo remover as setas de incremento/decremento
+que aparecem em campos de entrada do tipo 'number' em navegadores baseados no WebKit
+(Chrome, Safari, Edge - Chromium).
+*/
+input[type=number]::-webkit-inner-spin-button, /* Seleciona a seta interna (decremento) */
+input[type=number]::-webkit-outer-spin-button { /* Seleciona a seta externa (incremento) */
+-webkit-appearance: none; /* Remove a aparência padrão das setas */
+margin: 0; /* Garante que não haja margem extra ao redor das setas */
+}
+
+/*
+Este bloco de CSS tem como objetivo remover as setas de incremento/decremento
+que aparecem em campos de entrada do tipo 'number' em navegadores baseados no Gecko
+(Firefox).
+*/
+input[type=number] {
+-moz-appearance: textfield; /* Altera a aparência para um campo de texto padrão, removendo as setas */
+}
+
+ul {
+  padding: 10px;
+  font-size: 10px;
+}
+nav a:hover {
+  background-color: #111; /* Cor de fundo ao passar o mouse */
+}
+a {
+  padding: 14px 16px;
+}
+.divTotal {
+  border-radius: 10px;
+  color: white;
+  background-color: #333;
+  padding-top: 5px;
+  height: auto;
+  width: 90%; /* Largura relativa para telas maiores */
+  max-width: 1000px; /* Largura máxima para evitar que fique muito largo */
+  text-align: center;
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px auto; /* Adicionei margem vertical para melhor espaçamento */
+}
+
+/* Media query para telas menores (até 768px de largura) */
+@media (max-width: 768px) {
+  .divTotal {
+    width: 95%; /* Largura maior para telas menores */
+    margin: 10px auto; /* Reduzi a margem vertical para telas menores */
+  }
+}
+
+/* Media query para telas ainda menores (até 480px de largura) */
+@media (max-width: 480px) {
+  .divTotal {
+    width: 100%; /* Ocupa a largura total em telas muito pequenas */
+    border-radius: 0; /* Remove o arredondamento para telas muito pequenas */
+  }
+}
+.calcularEImprimir {
+  flex-direction: column; /* Alinha os itens em coluna (um embaixo do outro) */
+  display: flex; /* Usar flexbox para centralizar */
+  justify-content: center; /* Centralizar horizontalmente */
+  align-items: center; /* Centralizar verticalmente */
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Centralizar texto dentro do elemento */
+}
+.calcularEImprimir2{
+  display: block;
+  padding: 0px;
+  text-align: center;
+  align-items: center;
+}
+.liCabeça{
+  color: #111;
+}
+.divPendura{
+  width: 800px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.divCabeça{
+  display: flex;
+
+  padding: 10px;
+  border: 2px solid black;
+
+}
+.divProdutos {
+
+  padding: 10px;
+  display: flex;
+  align-items:initial;
+  border: 2px solid black;
+}
+.divValor {
+width: 285px;
+padding: 10px;
+display: flex;
+align-items:initial;
+border: 2px solid black;
+}
+.liCabeça{
+  display: flex;
+  align-items: end;
+  
+}
+.liProdutos{
+  width: 100px;
+  padding: 5px;
+  border: 2px solid black;
+  display: flex;
+  align-items: end;
+  font-size: 15px;
+}
+.liValor{
+  width: 100px;
+  padding: 5px;
+  border: 2px solid black;
+
+
+
+}
+.ulMenu{
+  display: flex;
+}
+.ulProdutos{
+width: 300px;
+
+  align-items: start;
+  display: flex;
+
+  flex-direction: column;
+  font-size: 15px;
+}
+.ulValor{
+padding: 0PX;
+width: 300px;
+display: flex;
+flex-direction: column;
+font-size: 15px;
+text-align: end;
+align-items: end;
+
+}
+.liData{
+width: 80px;
+padding: 5px;
+border: 2px solid black;
+display: flex;
+text-align: start;
+font-size: 15px;
+
+}
+
+.ulData{
+width: 100px;
+align-items: start;
+display: flex;
+
+flex-direction: column;
+font-size: 15px;
+}
+.divData{
+border: 2px solid black ;
+}
+.divProdutosFilho{
+
+border: 2px solid black ;
+
+}
+.divData:first-child {
+margin-right: 10px;
+}
+.divProdutosFilho{
+margin-right: 10px;
+}
+.minhaPendura {
+padding: 10px;
+background-color: #333;
+color: white;
+border-radius: 10px;
+width: 90%; /* Largura relativa para telas maiores */
+max-width:200px; /* Largura máxima para evitar que fique muito largo */
+display: flex;
+flex-direction: column;
+}
+.divEnviarPendura{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.enviarPendura{
+  margin-right: 10px;
+
+
+}
+.buttonPendura {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+.divMeuCaixa{
+  width: 50px;
+}

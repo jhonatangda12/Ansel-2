@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansel Calcule</title>
+    <link rel="stylesheet" href="Untitled-2.css">
+<body>
+  
+    <script src="appPendura 2.js"></script>
+
+    <div class="menu">
+        <nav class="navMenu">
+            <ul class="ulMenu">
+                <li style="list-style: none;"><a class="inicio" href="index.html">Início</a></li>
+            </ul>
+        </nav>
+    </div><br><br><br><br>
+
+        <div id="" class="minhaPendura"> 
+            <form id="pendura" method="POST" action="enviar 2.php">
+            <div class="dataPendura">
+                <label for="data">Selecione a data:</label>
+                <input type="date" id="data" name="data">
+                </label>
+            </div>
+            <br>
+            <div class="empresaPendura">
+                <label for="empresas">Empresa:</label>
+                <select id="empresas" name="empresas">
+                    <option value=""></option>
+                    <option value="Bella Pizza">Bella Pizza</option>
+                    <option value="Feito Massas e Pizzas">Feito Massas e Pizzas</option>
+                </select>
+            </div>
+            <br>
+            <div class="funcionarioPendura">
+                <label for="nome">Funcionário
+                    <input name="nome" id="nome" type="text">
+                </label>
+            
+            </div>
+            <br>
+            <div>
+                <label for="produto">Produto
+                    <input name="produto" id="produto" type="text">
+                </label>
+            </div>
+            <br>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <label  style="display: flex; flex-direction: column; " for="vlor">Valor
+                    <input id="valor" name="valor" step="0.01" type="number">
+                </label>
+            </div>
+            <br>
+            <div id="enviarPendura" class="divEnviarPendura">          
+                <div >
+                    <button class="buttonPendura" onclick="calcularSomadeTudo()">Guardar</button>
+                </div>
+            </form>
+
+            </div>  
+            <div id="imprimirPendura" class="imprimirEnviarPendura">          
+
+            <br>
+
+
+        </div> 
+        <div class="imprimirPendura">
+            <button class="buttonPendura" onclick="imprimirPendura()">Imprimir</button>
+        </div>
+        </div>
+ 
+
+
+
+
+
+
+    <br><br>
+    <p class="fimDePagina">&copy;System developed by Jhonatan Bryan Barbosa</p>
+    
+</body>
+</html>

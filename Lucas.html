@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansel Calcule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src=""></script>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="Carlos.html">Carlos</a></li>
+            <li><a href="Eder.html">Eder</a></li>
+            <li><a href="Fabio.html">Fábio</a></li>
+            <li><a href="Jeferson.html">Jeferson</a></li>
+            <li><a href="Jose.html">José</a></li>
+            <li><a href="Juliano.html">Juliano</a></li>
+            <li><a href="Leonardo.html">Leonardo</a></li>
+            <li><a href="Lucas.html">Lucas</a></li>
+            <li><a href="Paulo.html">Paulo</a></li>
+            <li><a href="Freelancer1.html">Freelancer 1</a></li>
+            <li><a href="Freelancer2.html">Freelancer 2</a></li>
+        </ul>
+    </nav><br>
+    <div class="img">
+        <img class="logo" src="Sem título.png" alt=""><br><br>
+    </div>
+
+    <div class="container"> <br>
+        <form id="meuFormulario">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" value="Lucas">
+            </div>
+            <div class="condicoes">
+                <p>11,5%</p>
+                <p>Taxa integral.</p>
+            </div> <br><br>
+            <div class="form-group">
+                <label for="numero1">Valor 1:</label>
+                <input type="number" id="numero1" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero2">Valor 2:</label>
+                <input type="number" id="numero2" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero3">Valor 3:</label>
+                <input type="number" id="numero3" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero4">Valor 4:</label>
+                <input type="number" id="numero4" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero5">Valor 5:</label>
+                <input type="number" id="numero5" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero6">Valor 6:</label>
+                <input type="number" id="numero6" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero7">Valor 7:</label>
+                <input type="number" id="numero7" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero8">Valor 8:</label>
+                <input type="number" id="numero8" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero9">Valor 9:</label>
+                <input type="number" id="numero9" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero10">Valor 10:</label>
+                <input type="number" id="numero10" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero11">Valor 11:</label>
+                <input type="number" id="numero11" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero12">Valor 12:</label>
+                <input type="number" id="numero12" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero13">Valor 13:</label>
+                <input type="number" id="numero13" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero14">Valor 14:</label>
+                <input type="number" id="numero14" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero15">Valor 15:</label>
+                <input type="number" id="numero15" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero16">Valor 16:</label>
+                <input type="number" id="numero16" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero17">Valor 17:</label>
+                <input type="number" id="numero17" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero18">Valor 18:</label>
+                <input type="number" id="numero18" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero19">Valor 19:</label>
+                <input type="number" id="numero19" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="numero20">Valor 20:</label>
+                <input type="number" id="numero20" value=""><br><br>
+            </div>
+            <div class="form-group">
+                <label for="taxa1">Taxa:</label>
+                <input type="number" id="taxa1" value=""><br><br>
+            </div>
+        </form>
+        <button style="margin-bottom: 20px;" onclick="calcularResultados()">Calcular</button>
+        <div class="">
+            <div id="resultados" class="resultados">
+                <p style="margin-bottom: 10px;">Taxas: <span id="resultadoTaxas"></span></p>
+                <p style="margin-top: 10px; margin-bottom: 10px;">Subtotal: <span id="resultadoSoma"></span></p>
+                <br>
+                <div class="valorTotal">
+                    <p class="valorAPAGAR">Valor a pagar:<br>
+                        <span class="valorFinal" id="valorAPagar"></span>
+                </div>
+                </p>
+            </div><br>
+            <button onclick="imprimirFormulario()">Imprimir</button>
+            <div class="resultados">
+                <br>
+                <label for="mensagem">Digite sua mensagem:</label>
+                <textarea spellcheck="true" class="feedback" name="mensagem" id="mensagem" placeholder="Deixe seu feedback..."></textarea>
+            </div>
+        </div>
+        <button onclick="enviarMensagem()">Enviar</button>
+    </div> <br><br>
+    <p>&copy;System developed by Jhonatan Bryan Barbosa</p>
+</body>
+</html>
