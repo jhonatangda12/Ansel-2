@@ -2,7 +2,7 @@
 //coluna 1
 function calcularFormadePagaMento1() {
     let soma1 = 0;
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement1 = document.getElementById(`column1-line${i}`);
         const valor1 = parseFloat(inputElement1.value) || 0;
         soma1 += valor1;
