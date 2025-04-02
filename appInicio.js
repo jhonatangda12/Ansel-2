@@ -17,7 +17,7 @@ function calcularFormadePagaMento1() {
 //coluna 2
 function calcularFormadePagaMento2() {
     let soma2 = 0;
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement2 = document.getElementById(`column2-line${i}`);
         const valor2 = parseFloat(inputElement2.value) || 0;
         soma2 += valor2;
@@ -32,7 +32,7 @@ function calcularFormadePagaMento2() {
 //coluna 3
 function calcularFormadePagaMento3() {
     let soma3 = 0;
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement3 = document.getElementById(`column3-line${i}`);
         const valor3 = parseFloat(inputElement3.value) || 0;
         soma3 += valor3;
@@ -47,7 +47,7 @@ function calcularFormadePagaMento3() {
 ///coluna 4
 function calcularFormadePagaMento4() {
     let soma4 = 0;
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement4 = document.getElementById(`column4-line${i}`);
         const valor4 = parseFloat(inputElement4.value) || 0;
         soma4 += valor4;
@@ -62,7 +62,7 @@ function calcularFormadePagaMento4() {
 ///coluna 5
 function calcularFormadePagaMento5() {
     let soma5 = 0;
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement5 = document.getElementById(`column5-line${i}`);
         const valor5 = parseFloat(inputElement5.value) || 0;
         soma5 += valor5;
@@ -77,7 +77,7 @@ function calcularFormadePagaMento5() {
 ///coluna 6
 function calcularFormadePagaMento6() {
     let soma6 = 0;
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement6 = document.getElementById(`column6-line${i}`);
         const valor6 = parseFloat(inputElement6.value) || 0;
         soma6 += valor6;
@@ -92,7 +92,7 @@ function calcularFormadePagaMento6() {
 ///coluna 7
 function calcularFormadePagaMento7() {
     let soma7 = 0;
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement7 = document.getElementById(`column7-line${i}`);
         const valor7 = parseFloat(inputElement7.value) || 0;
         soma7 += valor7;
@@ -107,7 +107,7 @@ function calcularFormadePagaMento7() {
 ///coluna 8
 function calcularFormadePagaMento8() {
     let soma8 = 0;
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement8 = document.getElementById(`column8-line${i}`);
         const valor8 = parseFloat(inputElement8.value) || 0;
         soma8 += valor8;
@@ -122,7 +122,7 @@ function calcularFormadePagaMento8() {
 ///coluna 9
 function calcularFormadePagaMento9() {
     let soma9 = 0;
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement9 = document.getElementById(`column9-line${i}`);
         const valor9 = parseFloat(inputElement9.value) || 0;
         soma9 += valor9;
@@ -137,7 +137,7 @@ function calcularFormadePagaMento9() {
 ///coluna 10
 function calcularFormadePagaMento10() {
     let soma10 = 0;
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement10 = document.getElementById(`column10-line${i}`);
         const valor10 = parseFloat(inputElement10.value) || 0;
         soma10 += valor10;
@@ -152,7 +152,7 @@ function calcularFormadePagaMento10() {
 ///coluna 11
 function calcularFormadePagaMento11() {
     let soma11 = 0;
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement11 = document.getElementById(`column11-line${i}`);
         const valor11 = parseFloat(inputElement11.value) || 0;
         soma11 += valor11;
@@ -167,7 +167,7 @@ function calcularFormadePagaMento11() {
 ///coluna 12
 function calcularFormadePagaMento12() {
     let soma12 = 0;
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement12 = document.getElementById(`column12-line${i}`);
         const valor12 = parseFloat(inputElement12.value) || 0;
         soma12 += valor12;
@@ -182,7 +182,7 @@ function calcularFormadePagaMento12() {
 ///coluna 13
 function calcularFormadePagaMento13() {
     let soma13 = 0;
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement13 = document.getElementById(`column13-line${i}`);
         const valor13 = parseFloat(inputElement13.value) || 0;
         soma13 += valor13;
@@ -250,7 +250,7 @@ function ImorimirFormadePagamento1() {
     const valores = [];
     let soma = 0;
 
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement = document.getElementById(`column1-line${i}`);
         const valor = parseFloat(inputElement.value);
 
@@ -282,7 +282,7 @@ function ImorimirFormadePagamento2() {
     const valores = [];
     let soma = 0;
 
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement = document.getElementById(`column2-line${i}`);
         const valor = parseFloat(inputElement.value);
 
@@ -316,7 +316,7 @@ function ImorimirFormadePagamento3() {
     const valores = [];
     let soma = 0;
 
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement = document.getElementById(`column3-line${i}`);
         const valor = parseFloat(inputElement.value);
 
@@ -350,7 +350,7 @@ function ImorimirFormadePagamento4() {
     const valores = [];
     let soma = 0;
 
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement = document.getElementById(`column4-line${i}`);
         const valor = parseFloat(inputElement.value);
 
@@ -384,7 +384,7 @@ function ImorimirFormadePagamento5() {
     const valores = [];
     let soma = 0;
 
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement = document.getElementById(`column5-line${i}`);
         const valor = parseFloat(inputElement.value);
 
@@ -418,7 +418,7 @@ function ImorimirFormadePagamento6() {
     const valores = [];
     let soma = 0;
 
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement = document.getElementById(`column6-line${i}`);
         const valor = parseFloat(inputElement.value);
 
@@ -452,7 +452,7 @@ function ImorimirFormadePagamento6() {
     const valores = [];
     let soma = 0;
 
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement = document.getElementById(`column6-line${i}`);
         const valor = parseFloat(inputElement.value);
 
@@ -486,7 +486,7 @@ function ImorimirFormadePagamento7() {
     const valores = [];
     let soma = 0;
 
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement = document.getElementById(`column7-line${i}`);
         const valor = parseFloat(inputElement.value);
 
@@ -520,7 +520,7 @@ function ImorimirFormadePagamento8() {
     const valores = [];
     let soma = 0;
 
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement = document.getElementById(`column8-line${i}`);
         const valor = parseFloat(inputElement.value);
 
@@ -554,7 +554,7 @@ function ImorimirFormadePagamento9() {
     const valores = [];
     let soma = 0;
 
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement = document.getElementById(`column9-line${i}`);
         const valor = parseFloat(inputElement.value);
 
@@ -588,7 +588,7 @@ function ImorimirFormadePagamento10() {
     const valores = [];
     let soma = 0;
 
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement = document.getElementById(`column10-line${i}`);
         const valor = parseFloat(inputElement.value);
 
@@ -622,7 +622,7 @@ function ImorimirFormadePagamento11() {
     const valores = [];
     let soma = 0;
 
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement = document.getElementById(`column11-line${i}`);
         const valor = parseFloat(inputElement.value);
 
@@ -656,7 +656,7 @@ function ImorimirFormadePagamento12() {
     const valores = [];
     let soma = 0;
 
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement = document.getElementById(`column12-line${i}`);
         const valor = parseFloat(inputElement.value);
 
@@ -690,7 +690,7 @@ function ImorimirFormadePagamento13() {
     const valores = [];
     let soma = 0;
 
-    for (let i = 1; i <= 26; i++) {
+    for (let i = 1; i <= 20; i++) {
         const inputElement = document.getElementById(`column13-line${i}`);
         const valor = parseFloat(inputElement.value);
 
