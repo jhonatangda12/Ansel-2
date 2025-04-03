@@ -32,7 +32,7 @@ function imprimirPendura() {
     janelaImpressao.document.write(`
         <html>
             <head>
-                <title>Pendura do ${dataFormatada2} ${dataFormatada2}</title>
+                <title>Pendura do(a) ${funcionario} ${dataFormatada2}</title>
             </head>
             <body>
                 ${conteudoImpressao}
