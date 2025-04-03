@@ -63,11 +63,7 @@ function imprimirPendura() {
     janelaImpressao.print();
     janelaImpressao.close();
 }
-document.querySelector('form').addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
-      event.preventDefault();
-    }
-  });
+
 
   //impressão 2
 
@@ -115,11 +111,6 @@ document.querySelector('form').addEventListener('keydown', function(event) {
     janelaImpressao.print();
     janelaImpressao.close();
 }
-document.querySelector('form').addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
-      event.preventDefault();
-    }
-  });
 
 //coluna 1
 function calcularFormadePagaMento1() {
