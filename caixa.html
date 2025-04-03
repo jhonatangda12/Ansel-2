@@ -510,70 +510,57 @@
 </div>
 
     <div id="divTotal" class="divTotal">
-        <p>Total:<br> <span id="SomadeTudo"></span></p>
-        <div class="calcularEImprimir">
-            <button class="" onclick="calcularSomadeTudo()">Calcular</button>
-        </div><br>
+                    <p>Total:<br> <span id="SomadeTudo"></span></p>
+                    <div class="calcularEImprimir">
+                        <button class="" onclick="calcularSomadeTudo()">Calcular</button>
+                    </div>
+                    <br>
     </div>  
-
-
-    <br><br>
-
-<br><br>
-            <div style="display: flex; flex-direction: inherit;">
-
-                <div id="" class="minhaPendura"> 
-                    <h1 style="border-bottom: 1px solid white;">Taxa</h1><br>
-            
-                    <div class="dataPendura">
-                        <label for="data">Selecione a data:</label>
-                        <input value="" type="date" id="data" name="data">
-                        </label>
-                    </div>
-                    <br>
-                    <div class="empresaPendura">
-                        <label for="empresas">Bairro:</label>
-                        <input value="" type="text" id="bairro" name="bairro">
-            
-                    </div>
-                    <br>
-                    <div class="funcionarioPendura">
-                        <label for="nome">Entregador
-                            <input value="" name="nome" id="nome" type="text">
-                        </label>
-                    
-                    </div>
-                    <br>
-            
-            
-                    <div style="display: flex; flex-direction: column; align-items: center;">
-                        <label  style="display: flex; flex-direction: column; " for="vlor">Valor
-                            <input value="" id="valor" name="valor" step="0.01" type="number">
-                        </label>
-                    </div>
-                    
-                    <br>
-                    
-                        <div class="imprimirPendura">
-                            <button class="buttonPendura" onclick="imprimirPendura()">Imprimir</button>
-                         <br><br>
-            
-                        </div>
-                        </div>
-
-                        
-
-            </div>
-
-
-
-
-
-
-
-    
-    <p class="fimDePagina">&copy;System developed by Jhonatan Bryan Barbosa</p>
     <br>
+    <div style="display: flex; flex-direction: inherit;">
+        <form id="meuFormulario">
+        <div class="minhaPendura">
+          <h1 style="border-bottom: 1px solid white;">Taxa</h1>
+          <br>
+          <div class="dataPendura">
+            <label for="data">
+              Selecione a data:
+              <input value="" type="date" id="data" name="data">
+            </label>
+          </div>
+          <br>
+          <div class="empresaPendura">
+            <label for="empresas">
+              Bairro:
+              <input value="" type="text" id="bairro" name="bairro">
+            </label>
+          </div>
+          <br>
+          <div class="funcionarioPendura">
+            <label for="nome">
+              Entregador
+              <input value="" name="nome" id="nome" type="text">
+            </label>
+          </div>
+          <br>
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <label style="display: flex; flex-direction: column;" for="vlor">
+              Valor
+              <input value="" id="valor" name="valor" step="0.01" type="number">
+            </label>
+          </div>
+        </form>
+        </div>
+        <br>
+        <div class="imprimirPendura">
+          <button class="buttonPendura" onclick="imprimirPendura()">Imprimir</button>
+        </div>
+      </div>
+      <br>
+      <br>
+      <p class="fimDePagina">&copy; System developed by Jhonatan Bryan Barbosa</p>
+      <br>
+      
     
 </body>
 </html>

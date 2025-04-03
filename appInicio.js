@@ -1,3 +1,24 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('meuFormulario');
+    const inputs = Array.from(form.querySelectorAll('input, textarea'));
+
+    if (form) {
+        form.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                const currentInput = document.activeElement;
+                const currentIndex = inputs.indexOf(currentInput);
+
+                if (currentIndex < inputs.length - 1) {
+                    inputs[currentIndex + 1].focus();
+                } else {
+                    // form.submit();
+                }
+            }
+        });
+    }
+});
+
 function imprimirPendura() {
     const dataAtual = new Date();
     const dia = String(dataAtual.getDate()).padStart(2, '0');
@@ -18,6 +39,7 @@ function imprimirPendura() {
     const dataFormatada2 = data.split('-').reverse().join('/');
 
     const conteudoImpressao = `
+    <p style="font-size: 30px; text-align: center;"><strong>TAXA</strong></p>
     <p style="font-size: 30px; text-align: center;"><strong>${dataFormatada2}</strong></p>
     <p style="font-size: 30px; text-align: center;"><strong>${bairro}</strong></p>
     <p style="font-size: 30px; text-align: center;"><strong>${funcionario}</strong></p>
