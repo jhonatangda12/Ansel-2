@@ -69,6 +69,57 @@ document.querySelector('form').addEventListener('keydown', function(event) {
     }
   });
 
+  //impressão 2
+
+  function imprimirPendura2() {
+    const dataAtual = new Date();
+    const dia = String(dataAtual.getDate()).padStart(2, '0');
+    const mes = String(dataAtual.getMonth() + 1).padStart(2, '0');
+    const ano = dataAtual.getFullYear();
+    const dataFormatada = `${dia}/${mes}/${ano}`;
+
+    const data2 = document.getElementById("data2").value;
+    const bairro2 = document.getElementById("bairro2").value;
+    const funcionario2 = document.getElementById("nome2").value;
+    const valor2 = document.getElementById("valor2").value;
+
+    // Validação de entrada
+    if (!data2 || !bairro2 || !funcionario2 || !valor2) {
+        alert("Por favor, preencha todos os campos!");
+        return; // Impede a execução se algum campo estiver vazio
+    }
+    const dataFormatada22 = data2.split('-').reverse().join('/');
+
+    const conteudoImpressao2 = `
+    <p style="font-size: 30px; text-align: center;"><strong>CORRIDA</strong></p>
+    <p style="font-size: 30px; text-align: center;"><strong>${dataFormatada22}</strong></p>
+    <p style="font-size: 30px; text-align: center;"><strong>${bairro2}</strong></p>
+    <p style="font-size: 30px; text-align: center;"><strong>${funcionario2}</strong></p>
+    <p style="font-size: 40px; text-align: center;">R$ <strong> ${valor2.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</strong></p>
+    
+    `;
+
+    const janelaImpressao = window.open('', '_blank');
+    janelaImpressao.document.open();
+    janelaImpressao.document.write(`
+        <html>
+            <head>
+                <title>Taxa do ${funcionario2} ${dataFormatada22}</title>
+            </head>
+            <body>
+                ${conteudoImpressao2}
+            </body>
+        </html>
+    `);
+    janelaImpressao.document.close();
+    janelaImpressao.print();
+    janelaImpressao.close();
+}
+document.querySelector('form').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+    }
+  });
 
 //coluna 1
 function calcularFormadePagaMento1() {

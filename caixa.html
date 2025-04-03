@@ -517,9 +517,10 @@
                     <br>
     </div>  
     <br>
+    <div class="taxaEcorrida">
     <div style="display: flex; flex-direction: inherit;">        
         <div class="minhaPendura">
-            <form id="meuFormulario"></form>
+            <form id="meuFormulario">
           <h1 style="border-bottom: 1px solid white;">Taxa</h1>
           <br>
           <div class="dataPendura">
@@ -558,6 +559,49 @@
       </div>
       <br>
       <br>
+
+      <div style="display: flex; flex-direction: inherit;">        
+        <div class="minhaPendura">
+            <form id="meuFormulario2">
+          <h1 style="border-bottom: 1px solid white;">Corrida</h1>
+          <br>
+          <div class="dataPendura">
+            <label for="data2">
+              Selecione a data:
+              <input value="" type="date" id="data2" name="data2">
+            </label>
+          </div>
+          <br>
+          <div class="empresaPendura">
+            <label for="empresas2">
+              Bairro:
+              <input value="" type="text" id="bairro2" name="bairro2">
+            </label>
+          </div>
+          <br>
+          <div class="funcionarioPendura">
+            <label for="nome2">
+              Entregador
+              <input value="" name="nome2" id="nome2" type="text">
+            </label>
+          </div>
+          <br>
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <label style="display: flex; flex-direction: column;" for="valor2">
+              Valor
+              <input value="" id="valor2" name="valor2" step="0.01" type="number">
+            </label>
+          </div>
+        </form>
+        <br>
+        <div class="imprimirPendura">
+          <button class="buttonPendura" onclick="imprimirPendura2()">Imprimir</button>
+        </div>
+        </div>
+      </div>
+     </div> 
+     <br>
+     <br> 
       <p class="fimDePagina">&copy; System developed by Jhonatan Bryan Barbosa</p>
       <br>
       

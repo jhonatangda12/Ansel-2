@@ -298,3 +298,10 @@ flex-direction: column;
 .divMeuCaixa{
   width: 50px;
 }
+
+.taxaEcorrida {
+  display: flex;
+  width: 500px;
+  flex-direction: row;
+  justify-content: space-between;
+}
