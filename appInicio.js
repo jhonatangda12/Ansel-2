@@ -321,13 +321,41 @@ function calcularSomadeTudo() {
     const resultado12 = calcularFormadePagaMento12();
     const resultado13 = calcularFormadePagaMento13();
     const somaTotal = resultado1 + resultado2 + resultado3 + resultado4+ resultado5 + resultado6
-    + resultado7 + resultado8+ resultado9 + resultado10+ resultado11 + resultado12 + resultado13;
+    + resultado7 + resultado8 + resultado9 + resultado10 + resultado11 + resultado12 + resultado13;
+    const somacredito = resultado2 + resultado3 + resultado4;
+    const somadebito = resultado5 + resultado6 + resultado7;
+    const somavoucher = resultado8 + resultado10;
+    const somapix = resultado9 + resultado11 + resultado12;
+    const somadinheiro = resultado9 + resultado11 + resultado12;
 
     // Exibe o resultado total em um elemento HTML (por exemplo, "totalGeral")
     document.getElementById("SomadeTudo").textContent = somaTotal.toLocaleString('pt-BR', {
         minimumFractionDigits: 2,
-        maximumFractionDigits: 2,
-    });
+        maximumFractionDigits: 2,});
+
+    document.getElementById("somaFormadePagamento").textContent = somacredito.toLocaleString('pt-BR', {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2,});
+
+            document.getElementById("somaFormadePagamento2").textContent = somadebito.toLocaleString('pt-BR', {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2,});
+
+                document.getElementById("somaFormadePagamento3").textContent = somavoucher.toLocaleString('pt-BR', {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2,});
+
+                    document.getElementById("somaFormadePagamento4").textContent = somapix.toLocaleString('pt-BR', {
+                        minimumFractionDigits: 2,
+                        maximumFractionDigits: 2,});
+
+                        document.getElementById("somaFormadePagamento0").textContent = somadinheiro.toLocaleString('pt-BR', {
+                            minimumFractionDigits: 2,
+                            maximumFractionDigits: 2,});
+    
+
+                    
+
 }
 
   // Adicionando a funcionalidade de navegação por Enter
