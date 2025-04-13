@@ -326,7 +326,7 @@ function calcularSomadeTudo() {
     const somadebito = resultado5 + resultado6 + resultado7;
     const somavoucher = resultado8 + resultado10;
     const somapix = resultado9 + resultado11 + resultado12;
-    const somadinheiro = resultado9 + resultado11 + resultado12;
+    const somadinheiro = resultado1;
 
     // Exibe o resultado total em um elemento HTML (por exemplo, "totalGeral")
     document.getElementById("SomadeTudo").textContent = somaTotal.toLocaleString('pt-BR', {
