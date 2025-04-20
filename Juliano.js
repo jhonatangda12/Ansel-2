@@ -69,7 +69,7 @@ function calcularResultados() {
 
     const taxa1 = parseFloat(document.getElementById("taxa1")?.value) || 0;
     const totalComTaxa = soma - taxa1;
-    const pagar = totalComTaxa * 11.5 + taxa1;
+    const pagar = totalComTaxa * 0.115 + taxa1;
 
     const formatOptions = {
         minimumFractionDigits: 2,
