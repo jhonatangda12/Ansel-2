@@ -3,7 +3,7 @@ function calcularResultados() {
     let num2 = parseFloat(document.getElementById("numero2").value) || 0; // Se não informado, usa 0
     let taxa01 = parseFloat(document.getElementById("taxa1").value) || 0; // Se não informado, usa 0
 
-    let multiplicar = num2 * 5;
+    let multiplicar = num2 * 8;
     let total = multiplicar + num1 + taxa01;
 
     document.getElementById("resultadoTaxas").textContent = taxa01.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
