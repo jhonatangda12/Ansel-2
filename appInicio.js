@@ -855,4 +855,302 @@ function ImorimirFormadePagamento13() {
     janelaImpressao.print();
 }
 
+function limparCampo1(){
+    document.getElementById("column1-line1").value = "";
+    document.getElementById("column1-line2").value = "";
+    document.getElementById("column1-line3").value = "";
+    document.getElementById("column1-line4").value = "";
+    document.getElementById("column1-line5").value = "";
+    document.getElementById("column1-line6").value = "";
+    document.getElementById("column1-line7").value = "";
+    document.getElementById("column1-line8").value = "";
+    document.getElementById("column1-line9").value = "";
+    document.getElementById("column1-line10").value = "";
+    document.getElementById("column1-line11").value = "";
+    document.getElementById("column1-line12").value = "";
+    document.getElementById("column1-line13").value = "";
+    document.getElementById("column1-line14").value = "";
+    document.getElementById("column1-line15").value = "";
+    document.getElementById("column1-line16").value = "";
+    document.getElementById("column1-line17").value = "";
+    document.getElementById("column1-line18").value = "";
+    document.getElementById("column1-line19").value = "";
+    document.getElementById("column1-line20").value = "";
+}
+
+function limparCampo2(){
+    document.getElementById("column2-line1").value = "";
+    document.getElementById("column2-line2").value = "";
+    document.getElementById("column2-line3").value = "";
+    document.getElementById("column2-line4").value = "";
+    document.getElementById("column2-line5").value = "";
+    document.getElementById("column2-line6").value = "";
+    document.getElementById("column2-line7").value = "";
+    document.getElementById("column2-line8").value = "";
+    document.getElementById("column2-line9").value = "";
+    document.getElementById("column2-line10").value = "";
+    document.getElementById("column2-line11").value = "";
+    document.getElementById("column2-line12").value = "";
+    document.getElementById("column2-line13").value = "";
+    document.getElementById("column2-line14").value = "";
+    document.getElementById("column2-line15").value = "";
+    document.getElementById("column2-line16").value = "";
+    document.getElementById("column2-line17").value = "";
+    document.getElementById("column2-line18").value = "";
+    document.getElementById("column2-line19").value = "";
+    document.getElementById("column2-line20").value = "";
+}
+
+function limparCampo3(){
+    document.getElementById("column3-line1").value = "";
+    document.getElementById("column3-line2").value = "";
+    document.getElementById("column3-line3").value = "";
+    document.getElementById("column3-line4").value = "";
+    document.getElementById("column3-line5").value = "";
+    document.getElementById("column3-line6").value = "";
+    document.getElementById("column3-line7").value = "";
+    document.getElementById("column3-line8").value = "";
+    document.getElementById("column3-line9").value = "";
+    document.getElementById("column3-line10").value = "";
+    document.getElementById("column3-line11").value = "";
+    document.getElementById("column3-line12").value = "";
+    document.getElementById("column3-line13").value = "";
+    document.getElementById("column3-line14").value = "";
+    document.getElementById("column3-line15").value = "";
+    document.getElementById("column3-line16").value = "";
+    document.getElementById("column3-line17").value = "";
+    document.getElementById("column3-line18").value = "";
+    document.getElementById("column3-line19").value = "";
+    document.getElementById("column3-line20").value = "";
+}
+
+function limparCampo4(){
+    document.getElementById("column4-line1").value = "";
+    document.getElementById("column4-line2").value = "";
+    document.getElementById("column4-line3").value = "";
+    document.getElementById("column4-line4").value = "";
+    document.getElementById("column4-line5").value = "";
+    document.getElementById("column4-line6").value = "";
+    document.getElementById("column4-line7").value = "";
+    document.getElementById("column4-line8").value = "";
+    document.getElementById("column4-line9").value = "";
+    document.getElementById("column4-line10").value = "";
+    document.getElementById("column4-line11").value = "";
+    document.getElementById("column4-line12").value = "";
+    document.getElementById("column4-line13").value = "";
+    document.getElementById("column4-line14").value = "";
+    document.getElementById("column4-line15").value = "";
+    document.getElementById("column4-line16").value = "";
+    document.getElementById("column4-line17").value = "";
+    document.getElementById("column4-line18").value = "";
+    document.getElementById("column4-line19").value = "";
+    document.getElementById("column4-line20").value = "";
+}
+
+function limparCampo5(){
+    document.getElementById("column5-line1").value = "";
+    document.getElementById("column5-line2").value = "";
+    document.getElementById("column5-line3").value = "";
+    document.getElementById("column5-line4").value = "";
+    document.getElementById("column5-line5").value = "";
+    document.getElementById("column5-line6").value = "";
+    document.getElementById("column5-line7").value = "";
+    document.getElementById("column5-line8").value = "";
+    document.getElementById("column5-line9").value = "";
+    document.getElementById("column5-line10").value = "";
+    document.getElementById("column5-line11").value = "";
+    document.getElementById("column5-line12").value = "";
+    document.getElementById("column5-line13").value = "";
+    document.getElementById("column5-line14").value = "";
+    document.getElementById("column5-line15").value = "";
+    document.getElementById("column5-line16").value = "";
+    document.getElementById("column5-line17").value = "";
+    document.getElementById("column5-line18").value = "";
+    document.getElementById("column5-line19").value = "";
+    document.getElementById("column5-line20").value = "";
+}
+
+function limparCampo6(){
+    document.getElementById("column6-line1").value = "";
+    document.getElementById("column6-line2").value = "";
+    document.getElementById("column6-line3").value = "";
+    document.getElementById("column6-line4").value = "";
+    document.getElementById("column6-line5").value = "";
+    document.getElementById("column6-line6").value = "";
+    document.getElementById("column6-line7").value = "";
+    document.getElementById("column6-line8").value = "";
+    document.getElementById("column6-line9").value = "";
+    document.getElementById("column6-line10").value = "";
+    document.getElementById("column6-line11").value = "";
+    document.getElementById("column6-line12").value = "";
+    document.getElementById("column6-line13").value = "";
+    document.getElementById("column6-line14").value = "";
+    document.getElementById("column6-line15").value = "";
+    document.getElementById("column6-line16").value = "";
+    document.getElementById("column6-line17").value = "";
+    document.getElementById("column6-line18").value = "";
+    document.getElementById("column6-line19").value = "";
+    document.getElementById("column6-line20").value = "";
+}
+
+function limparCampo7(){
+    document.getElementById("column7-line1").value = "";
+    document.getElementById("column7-line2").value = "";
+    document.getElementById("column7-line3").value = "";
+    document.getElementById("column7-line4").value = "";
+    document.getElementById("column7-line5").value = "";
+    document.getElementById("column7-line6").value = "";
+    document.getElementById("column7-line7").value = "";
+    document.getElementById("column7-line8").value = "";
+    document.getElementById("column7-line9").value = "";
+    document.getElementById("column7-line10").value = "";
+    document.getElementById("column7-line11").value = "";
+    document.getElementById("column7-line12").value = "";
+    document.getElementById("column7-line13").value = "";
+    document.getElementById("column7-line14").value = "";
+    document.getElementById("column7-line15").value = "";
+    document.getElementById("column7-line16").value = "";
+    document.getElementById("column7-line17").value = "";
+    document.getElementById("column7-line18").value = "";
+    document.getElementById("column7-line19").value = "";
+    document.getElementById("column7-line20").value = "";
+}
+
+function limparCampo8(){
+    document.getElementById("column8-line1").value = "";
+    document.getElementById("column8-line2").value = "";
+    document.getElementById("column8-line3").value = "";
+    document.getElementById("column8-line4").value = "";
+    document.getElementById("column8-line5").value = "";
+    document.getElementById("column8-line6").value = "";
+    document.getElementById("column8-line7").value = "";
+    document.getElementById("column8-line8").value = "";
+    document.getElementById("column8-line9").value = "";
+    document.getElementById("column8-line10").value = "";
+    document.getElementById("column8-line11").value = "";
+    document.getElementById("column8-line12").value = "";
+    document.getElementById("column8-line13").value = "";
+    document.getElementById("column8-line14").value = "";
+    document.getElementById("column8-line15").value = "";
+    document.getElementById("column8-line16").value = "";
+    document.getElementById("column8-line17").value = "";
+    document.getElementById("column8-line18").value = "";
+    document.getElementById("column8-line19").value = "";
+    document.getElementById("column8-line20").value = "";
+}
+
+function limparCampo9(){
+    document.getElementById("column9-line1").value = "";
+    document.getElementById("column9-line2").value = "";
+    document.getElementById("column9-line3").value = "";
+    document.getElementById("column9-line4").value = "";
+    document.getElementById("column9-line5").value = "";
+    document.getElementById("column9-line6").value = "";
+    document.getElementById("column9-line7").value = "";
+    document.getElementById("column9-line8").value = "";
+    document.getElementById("column9-line9").value = "";
+    document.getElementById("column9-line10").value = "";
+    document.getElementById("column9-line11").value = "";
+    document.getElementById("column9-line12").value = "";
+    document.getElementById("column9-line13").value = "";
+    document.getElementById("column9-line14").value = "";
+    document.getElementById("column9-line15").value = "";
+    document.getElementById("column9-line16").value = "";
+    document.getElementById("column9-line17").value = "";
+    document.getElementById("column9-line18").value = "";
+    document.getElementById("column9-line19").value = "";
+    document.getElementById("column9-line20").value = "";
+}
+
+function limparCampo10(){
+    document.getElementById("column10-line1").value = "";
+    document.getElementById("column10-line2").value = "";
+    document.getElementById("column10-line3").value = "";
+    document.getElementById("column10-line4").value = "";
+    document.getElementById("column10-line5").value = "";
+    document.getElementById("column10-line6").value = "";
+    document.getElementById("column10-line7").value = "";
+    document.getElementById("column10-line8").value = "";
+    document.getElementById("column10-line9").value = "";
+    document.getElementById("column10-line10").value = "";
+    document.getElementById("column10-line11").value = "";
+    document.getElementById("column10-line12").value = "";
+    document.getElementById("column10-line13").value = "";
+    document.getElementById("column10-line14").value = "";
+    document.getElementById("column10-line15").value = "";
+    document.getElementById("column10-line16").value = "";
+    document.getElementById("column10-line17").value = "";
+    document.getElementById("column10-line18").value = "";
+    document.getElementById("column10-line19").value = "";
+    document.getElementById("column10-line20").value = "";
+}
+
+function limparCampo11(){
+    document.getElementById("column11-line1").value = "";
+    document.getElementById("column11-line2").value = "";
+    document.getElementById("column11-line3").value = "";
+    document.getElementById("column11-line4").value = "";
+    document.getElementById("column11-line5").value = "";
+    document.getElementById("column11-line6").value = "";
+    document.getElementById("column11-line7").value = "";
+    document.getElementById("column11-line8").value = "";
+    document.getElementById("column11-line9").value = "";
+    document.getElementById("column11-line10").value = "";
+    document.getElementById("column11-line11").value = "";
+    document.getElementById("column11-line12").value = "";
+    document.getElementById("column11-line13").value = "";
+    document.getElementById("column11-line14").value = "";
+    document.getElementById("column11-line15").value = "";
+    document.getElementById("column11-line16").value = "";
+    document.getElementById("column11-line17").value = "";
+    document.getElementById("column11-line18").value = "";
+    document.getElementById("column11-line19").value = "";
+    document.getElementById("column11-line20").value = "";
+}
+
+function limparCampo12(){
+    document.getElementById("column12-line1").value = "";
+    document.getElementById("column12-line2").value = "";
+    document.getElementById("column12-line3").value = "";
+    document.getElementById("column12-line4").value = "";
+    document.getElementById("column12-line5").value = "";
+    document.getElementById("column12-line6").value = "";
+    document.getElementById("column12-line7").value = "";
+    document.getElementById("column12-line8").value = "";
+    document.getElementById("column12-line9").value = "";
+    document.getElementById("column12-line10").value = "";
+    document.getElementById("column12-line11").value = "";
+    document.getElementById("column12-line12").value = "";
+    document.getElementById("column12-line13").value = "";
+    document.getElementById("column12-line14").value = "";
+    document.getElementById("column12-line15").value = "";
+    document.getElementById("column12-line16").value = "";
+    document.getElementById("column12-line17").value = "";
+    document.getElementById("column12-line18").value = "";
+    document.getElementById("column12-line19").value = "";
+    document.getElementById("column12-line20").value = "";
+}
+
+function limparCampo13(){
+    document.getElementById("column13-line1").value = "";
+    document.getElementById("column13-line2").value = "";
+    document.getElementById("column13-line3").value = "";
+    document.getElementById("column13-line4").value = "";
+    document.getElementById("column13-line5").value = "";
+    document.getElementById("column13-line6").value = "";
+    document.getElementById("column13-line7").value = "";
+    document.getElementById("column13-line8").value = "";
+    document.getElementById("column13-line9").value = "";
+    document.getElementById("column13-line10").value = "";
+    document.getElementById("column13-line11").value = "";
+    document.getElementById("column13-line12").value = "";
+    document.getElementById("column13-line13").value = "";
+    document.getElementById("column13-line14").value = "";
+    document.getElementById("column13-line15").value = "";
+    document.getElementById("column13-line16").value = "";
+    document.getElementById("column13-line17").value = "";
+    document.getElementById("column13-line18").value = "";
+    document.getElementById("column13-line19").value = "";
+    document.getElementById("column13-line20").value = "";
+}
 // Repita o padrão para ImorimirFormadePagamento3, ImorimirFormadePagamento4, etc.
